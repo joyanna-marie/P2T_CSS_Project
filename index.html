@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Project</title>
+</head>
+<body>
+  <div class="columns">
+  <nav>
+    <img src="assets/profileimage.jpg" id="profileimage" alt="profileimage" width="70" height="70">
+    <h3>Welcome Brock!</h3>
+    <br><br>
+    <a href="#" class="inbox"><button type="button">Compose</button></a>
+    <ul id="list">
+      <li><a href="#" class="inbox_tag">Inbox</a></li><br>
+      <li><a href="#" class="tagged">Tagged</a></li><br>
+      <li><a href="#" class="important">Important</a></li><br>
+      <li><a href="#" class="sentmail">Sent Mail</a></li><br>
+      <li><a href="#" class="drafts">Drafts</a></li><br>
+      <li><a href="#" class="trash">Trash</a></li>
+    </ul>
+  </nav>
+  <!--END OF NAV SECTION-->
+
+  <div class="content">
+    <div class="inbox">
+  <label for="search">
+    <input type="text" class="search" placeholder="Search For Emails" name="search" id="search">
+  </label>
+  <h2>Inbox</h2>
+    <!-- Email 1 --> 
+    <div class="inbox">
+        <div class="email-header">
+            <span class="sender">John Doe</span>
+            <span class="date-time">Nov 18, 2024 - 10:30 AM</span>
+        </div>
+        <div class="email-preview">
+            This is a preview of the email content. It provides a quick glance at the message.
+        </div>
+        </div>
+        <!-- Email 2 -->
+        <div class="inbox">
+          <div class="email-header">
+              <span class="sender">Jane Smith</span>
+              <span class="date-time">Nov 17, 2024 - 4:15 PM</span>
+          </div>
+          <div class="email-preview">
+              Another sample email preview. This is just filler text for demonstration.
+          </div>
+        </div>
+      <!-- Email 3 -->
+      <div class="inbox">
+          <div class="email-header">
+              <span class="sender">Marketing Team</span>
+              <span class="date-time">Nov 16, 2024 - 9:00 AM</span>
+          </div>
+          <div class="email-preview">
+              Check out our latest deals and offers in this week's newsletter!
+          </div>
+      </div>
+  </div>
+<!--END OF INBOX SECTION-->
+<element id="preview">
+  <!-- Email Details Section -->
+  <div class="email-details">
+      <h2>Selected Email</h2>
+      <p><strong>Sender:</strong> sender@example.com</p>
+      <p><strong>Recipient:</strong> recipient@example.com</p>
+      <p><strong>Subject:</strong> Welcome to Our Newsletter!</p>
+      <div class="email-body">
+          Dear User,<br><br>
+          Thank you for subscribing to our newsletter! We are excited to share the latest updates and exclusive content with you.<br><br>
+          Best regards,<br>
+          The Newsletter Team
+      </div>
+  </div>
+
+  <!-- Reply Section -->
+  <div class="reply-section">
+      <h3>Reply to this email</h3>
+      <textarea class="message-input" placeholder="Enter Message...."></textarea>
+      <button class="send-button">Send Email</button>
+  </div>
+</div>
+  </div>
+</body>
+</html>
