@@ -47,9 +47,10 @@ body, html {
   .content {
     flex: 1;
     display: flex;
-    flex-direction: column;
-    background-color: peachpuff;
+    flex-direction: row;
+    gap: 20px;
     padding: 20px;
+    background-color: peachpuff;
     overflow-y: auto;
   }
   
@@ -96,4 +97,15 @@ body, html {
       margin-top: 20px;
     }
   }
+
+ .content {
+      flex-direction: column;
+      padding: 10px;
+    }
   
+    .inbox,
+    .email-details {
+      max-width: 100%;
+      margin-bottom: 20px;
+    }
+  }
