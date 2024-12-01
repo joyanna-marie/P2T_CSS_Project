@@ -18,7 +18,7 @@ body, html {
   }
   
   nav {
-    background-color: pink;
+    background-color: lightpink;
     color: deeppink;
     display: flex;
     flex-direction: column;
@@ -68,7 +68,7 @@ body, html {
     padding: 15px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    background-color: white;
+    background-color: pink;
   }
   
   .reply-section textarea {
